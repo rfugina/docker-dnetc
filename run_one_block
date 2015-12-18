@@ -1,0 +1,5 @@
+#!/bin/bash
+
+/var/dnetc/dnetc -numcpu 1 -noquiet -percentoff -priority 9 -bin rc5-72 1 -n 1
+/var/dnetc/dnetc -flush
+
