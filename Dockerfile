@@ -2,7 +2,6 @@
 FROM ubuntu:trusty
 
 RUN apt-get update
-RUN apt-get -y purge dh-python
 RUN apt-get -y upgrade
 RUN apt-get install -y wget
 RUN apt-get -y autoremove
